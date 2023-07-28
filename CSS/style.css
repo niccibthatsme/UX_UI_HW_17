@@ -1,7 +1,35 @@
-/* Navbar CSS */
-.inline-block {
+body {
+    background-color: #E6E6E6;
+  }
+  /* Navigation CSS */
+  .nav-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .navbar-nav {
+    display: flex;
+    list-style: none;
+  }
+  
+  .nav-item {
+    padding: 5px 10px;
+  }
+  
+  .nav-link {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .inline-block {
     display: inline-block;
     vertical-align: top;
+  }
+  
+  .inline-block {
+    display: inline-block;
+    text-align: center;
   }
   
   .logo {
@@ -11,11 +39,12 @@
   
   nav {
     width: 73%;
-    padding: 1%;
+    padding: 1px;
+    margin-left: auto;
   }
   
   ul {
-    width: 50%;
+    width: 45%;
     margin-left: auto;
   }
   
@@ -23,10 +52,10 @@
     text-align: center;
   }
   
-  /* Hero image CSS */
+  /* Hero Image CSS */
   .heroImg {
-    height: 600px;
-    padding: 25px;
+    height: 500px;
+    padding: 100px;
   }
   
   .content {
@@ -34,20 +63,42 @@
     margin: 0 auto;
   }
   
+  /* Simple Grid */
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+    margin: 50px auto;
+    max-width: 600px;
+    justify-content: center;
+    }
+  
+    .grid-item {
+        background-color: #B1B1B1;
+        padding: 120px;
+        text-align: wrap;
+        border-radius: 18px;
+        height: 100px; 
+        width: 100px; 
+        font-size: 32px;
+        text-decoration-line: underline;
+      }
+  
   /* Footer CSS */
   footer {
-    background-color: #ffc8dd;
+    background-color: #393939;
     padding: 10px;
   }
   
   footer ul {
     display: inline-block;
     vertical-align: top;
-    padding: 0;
+    padding: 50;
   }
   
   footer li {
-    padding: 10px;
-    list-style: none;
+    padding: 5px;
+    color: white;
   }
+  
   

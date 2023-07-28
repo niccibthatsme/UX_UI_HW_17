@@ -1,60 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charest="UTF-8"
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Nicole Banks UX Designer</title>
-        <link rel="stylesheet" href="CSS/style.css">
-        <style>
-            .inline-block {
-                display: inline-block;
-            }
-            ul {
-                list-style-type: none;
-                margin: 0;
-                padding: 0;
-            }
-        </style>
-
-    </head>
-    <body>
-        <!-- Navbar HTML -->
-        <header class="navigation">
-            <div> 
-                <logo>
-                    <img scr="" alt="NICOLE'S LOGO" width="250" height="300">
-                      </logo>
-            </div>
-        </header>
-        <nav class="inline-block">
-            <ul>
-                <li class="inline-block">ABOUT</li>
-                <li class="inline-block">SKILLS</li>
-                <li class="inline-block">WORK</li>
-                <li class="inline-block">CONTACT</li>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Portfolio</title>
+</head>
+<body>
+  <!-- Navigation -->
+   <header class="navigation">
+    <div class="nav-container">
+      <div class="inline-block logo">
+        <img src="Images/your_logo.png" alt="Logo">
+      </div>
+      <!-- Navbar -->
+      <nav class="navbar navbar-expand-lg navbar-light bg-white">
+        <div class="container-fluid">
+          <div class="collapse navbar-collapse ms-auto" id="navbarExample01">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item active">
+                <a class="nav-link" aria-current="page" href="#">ABOUT</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">SKILLS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">WORK</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">CONTACT</a>
+              </li>
             </ul>
-        </nav>
-    </headr>
-    
-    <!-- Hero image HTML -->
-    <section class="heroImg">
-        <div class="content">
-            <img src="https://drive.google.com/file/d/15PtIyki8JFePETMG1UZ7ThEKLNxxI3Ut/view?usp=sharing" alt="your picture"
-            <p>About yourself! Write some text here.</p>
-            <button>Download Resume</button>
+          </div>
         </div>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Image Section -->
+  <section class="heroImg">
+    <div class="content">
+      <img src="Images/your_profile_picture.png" alt="Your Picture">
+      <p>I'm Nicole, and in 2022, I transitioned from an 18-year career as a technical designer in the fashion industry to become a UX designer. This change reflects my unwavering passion for design, empathetic approach to understanding user needs, and ability to merge artistic creativity with technical proficiency. I take pride in creating user experiences that combine aesthetics and functionality, resulting in visually appealing and intuitive designs. My problem-solving approach involves empathy and thorough research, recognizing the importance of user needs and motivations. With my background as a technical designer, I bring a unique blend of creativity and attention to detail, enabling me to design visually stunning and practical experiences.</p>
+      <button>Download Resume</button>
+    </div>
+  </section>
+
+  <!-- Grid Container -->
+  <section class="grid-container">
+    <!-- Simple Grid -->
+    <section class="grid">
+      <div class="grid-item">CASE STUDIES</div>
+      <div class="grid-item">INSPIRATION</div>
+      <div class="grid-item">RESUME</div>
+      <div class="grid-item">CONTACT ME</div>
     </section>
-
-    <!-- Footer HTML-->
-    <footer>
-        <ul>
-            <li class="inline-block">About</li>
-            <li class="inline-block">Skills</li>
-            <li class="inline-block">Work</li>
-            <li class="inline-block">Contact</li>
-        </ul>
-    </footer>
-
+  </section>
+  
+  <!-- Footer -->
+  <footer>
+    <ul>
+      <li class="inline-block">about</li>
+      <li class="inline-block">skills</li>
+      <li class="inline-block">work</li>
+      <li class="inline-block">contact</li>
+    </ul>
+  </footer>
 </body>
-
 </html>
